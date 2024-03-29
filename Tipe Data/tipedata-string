@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+/* 
+function untuk string
+
+len("string") = menghitung jumlah karakter di string
+"string"[number] mengambil karakter pada posisi yang ditentukan
+*/
+
+func main () {
+	fmt.Println(len("Hamid"))
+	fmt.Println("Abdul Hamid"[0])
+	fmt.Println("Abdul Hamid"[1])
+}
